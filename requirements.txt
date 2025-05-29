@@ -1,0 +1,13 @@
+pandas
+numpy
+matplotlib
+seaborn
+pyod
+tensorflow
+joblib
+scikit-learn
+fastapi==0.110.0
+pydantic==2.6.4
+uvicorn
+uvicorn[standard]
+python-multipart

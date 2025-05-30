@@ -22,6 +22,9 @@ jobs:
         with:
           username: ${{ secrets.ashutosh90055251591}}
           password: ${{ secrets.dckr_pat_LYN5EN6UyJryol0Jv6lO2yEJnIY }}
+      - name: Run tests with pytest
+        run: |
+        pytest tests/
 
       - name: Build and push Docker image
         uses: docker/build-push-action@v5

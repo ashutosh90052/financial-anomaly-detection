@@ -11,3 +11,5 @@ pydantic==2.6.4
 uvicorn
 uvicorn[standard]
 python-multipart
+pytest
+
